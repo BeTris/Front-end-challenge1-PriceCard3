@@ -1,0 +1,105 @@
+html{
+  box-sizing : border-box;
+  font-family : 'karla';
+  font-size : 16px ; 
+}
+*,*:before,*:after{
+  box-sizing : inherit;
+}
+
+h1,h2,p{
+  margin : 0;
+}
+#main{
+  width : 600px ;
+  height : 450px ;
+  box-shadow : 2px 3px 7px 0px rgba(0,0,0,0.35);
+ overflow : hidden;
+  border-radius : 8px;
+}
+#section-up{
+  width : 100% ;
+  height : 45% ; 
+  padding : 30px;
+}
+#section-down{
+   width : 100% ;
+  height : 55% ; 
+  display : flex ; 
+}
+
+#section-down-left {
+  width : 50% ;
+  padding : 30px ;
+  flex-grow : 1 ;
+  background-color : hsl(179, 62%, 43%);
+  color : hsl(204, 43%, 93%);
+}
+#section-down-left h2{
+  margin-bottom : 15px ;
+}
+.price{
+  margin-bottom : 7.5px ; 
+  display  : flex;
+  align-items : center ;
+
+}
+.dollar {
+  font-weight : 700px ; 
+  font-size : 1.4rem ;
+}
+.per-month {
+margin-left :10px;
+  /*OR this can be used ,where position is relative to previous item position : relative ;
+  left : 10px ; */
+  font-size : 0.9rem;
+  opacity : 50% ;
+  flex-grow : 1;
+}
+button {
+  font-family :"kafka";
+  font-size : 16px ; 
+  margin-top : 25px ;
+  width : 100%;
+  background-color : hsl(71, 73%, 54%);
+  border : none;
+  color :  hsl(204, 43%, 93%);
+  border-radius :5px;
+  height : 40px ;
+  box-shadow : 26px 23px 20px -16px rgba(0,0,0,0.30);; 
+}
+
+button:hover{
+  cursor : pointer ; 
+  background-color : A9C42D; 
+  scale : 1.02 ; 
+}
+#section-down-right{
+  width : 50% ; 
+  padding : 30px ; 
+  flex-grow : 1 ; 
+  background-color : hsl(179, 62%, 43% ,0.70); 
+  color :  hsl(204, 43%, 93%);
+  
+}
+ul{
+  padding : 0px; 
+  list-style : none; 
+  font-size : 14px;
+}
+li{
+  margin-bottom : 2px;
+}
+h1{
+  color : hsl(179, 62%, 43%);
+  margin-bottom : 15px ; 
+}
+
+#section-up>h2{
+  color : hsl(71, 73%, 54%);
+  margin-bottom : 7.5px ;
+}
+
+#section-up>p{
+  color : hsl(218, 22%, 67%);
+}
